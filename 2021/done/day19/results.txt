@@ -1,0 +1,777 @@
+
+Comparing --- scanner 1 --- to --- scanner 0 ---
+Skipping --- scanner 1 --- due to 0 matches.
+Comparing --- scanner 2 --- to --- scanner 0 ---
+--- scanner 2 --- has 66 matches.
+--- scanner 2 --- moved to new Location at X:   108.00, Y: -1254.00, Z:   -76.00
+Added Beacon at X:  -649.00, Y: -1864.00, Z:  -492.00
+Added Beacon at X:  -506.00, Y: -1879.00, Z:  -451.00
+Added Beacon at X:  -414.00, Y: -1898.00, Z:  -505.00
+Added Beacon at X:  -411.00, Y: -2051.00, Z:   468.00
+Added Beacon at X:  -363.00, Y: -2061.00, Z:   279.00
+Added Beacon at X:  -329.00, Y: -1997.00, Z:   452.00
+Added Beacon at X:    79.00, Y: -1252.00, Z:   -18.00
+Added Beacon at X:   172.00, Y: -1124.00, Z:  -126.00
+Added Beacon at X:   408.00, Y: -1891.00, Z:   572.00
+Added Beacon at X:   417.00, Y: -2080.00, Z:   634.00
+Added Beacon at X:   464.00, Y: -1972.00, Z:   707.00
+Added Beacon at X:   738.00, Y: -1595.00, Z:  -520.00
+Added Beacon at X:   749.00, Y: -1609.00, Z:  -598.00
+Added Beacon at X:   761.00, Y: -1641.00, Z:  -453.00
+Scanners remaining: 25
+Comparing --- scanner 3 --- to --- scanner 0 ---
+Skipping --- scanner 3 --- due to 0 matches.
+Comparing --- scanner 4 --- to --- scanner 0 ---
+Skipping --- scanner 4 --- due to 15 matches.
+Comparing --- scanner 5 --- to --- scanner 0 ---
+Skipping --- scanner 5 --- due to 15 matches.
+Comparing --- scanner 6 --- to --- scanner 0 ---
+Skipping --- scanner 6 --- due to 3 matches.
+Comparing --- scanner 7 --- to --- scanner 0 ---
+Skipping --- scanner 7 --- due to 3 matches.
+Comparing --- scanner 8 --- to --- scanner 0 ---
+--- scanner 8 --- has 66 matches.
+--- scanner 8 --- moved to new Location at X: -1155.00, Y: -1259.00, Z:    -2.00
+Added Beacon at X: -1967.00, Y: -1849.00, Z:   570.00
+Added Beacon at X: -1940.00, Y:  -727.00, Z:  -786.00
+Added Beacon at X: -1937.00, Y:  -761.00, Z:  -874.00
+Added Beacon at X: -1936.00, Y:  -889.00, Z:  -859.00
+Added Beacon at X: -1932.00, Y:  -778.00, Z:   700.00
+Added Beacon at X: -1898.00, Y:  -805.00, Z:   711.00
+Added Beacon at X: -1897.00, Y: -1880.00, Z:   482.00
+Added Beacon at X: -1875.00, Y:  -683.00, Z:   679.00
+Added Beacon at X: -1823.00, Y: -1590.00, Z:  -829.00
+Added Beacon at X: -1790.00, Y: -1722.00, Z:  -800.00
+Added Beacon at X: -1761.00, Y: -1671.00, Z:  -906.00
+Added Beacon at X: -1750.00, Y: -1859.00, Z:   550.00
+Added Beacon at X: -1092.00, Y: -1223.00, Z:   -81.00
+Scanners remaining: 24
+Comparing --- scanner 9 --- to --- scanner 0 ---
+Skipping --- scanner 9 --- due to 0 matches.
+Comparing --- scanner 10 --- to --- scanner 0 ---
+--- scanner 10 --- has 66 matches.
+--- scanner 10 --- moved to new Location at X:   101.00, Y: -1192.00, Z: -1169.00
+Added Beacon at X:  -407.00, Y:  -620.00, Z: -1571.00
+Added Beacon at X:  -377.00, Y: -1577.00, Z: -1873.00
+Added Beacon at X:  -364.00, Y:  -696.00, Z: -1626.00
+Added Beacon at X:  -356.00, Y: -1702.00, Z: -1994.00
+Added Beacon at X:  -336.00, Y: -1630.00, Z: -1990.00
+Added Beacon at X:  -274.00, Y:  -552.00, Z: -1576.00
+Added Beacon at X:    28.00, Y: -1259.00, Z: -1269.00
+Added Beacon at X:   167.00, Y: -1095.00, Z: -1174.00
+Added Beacon at X:   459.00, Y: -1839.00, Z: -1585.00
+Added Beacon at X:   463.00, Y: -1940.00, Z: -1633.00
+Added Beacon at X:   484.00, Y: -1811.00, Z: -1574.00
+Added Beacon at X:   547.00, Y:  -611.00, Z: -1699.00
+Added Beacon at X:   563.00, Y:  -665.00, Z: -1705.00
+Added Beacon at X:   640.00, Y:  -497.00, Z: -1651.00
+Scanners remaining: 23
+Comparing --- scanner 11 --- to --- scanner 0 ---
+Skipping --- scanner 11 --- due to 0 matches.
+Comparing --- scanner 12 --- to --- scanner 0 ---
+--- scanner 12 --- has 66 matches.
+--- scanner 12 --- moved to new Location at X:    41.00, Y: -1150.00, Z:  1244.00
+Added Beacon at X:  -664.00, Y: -1733.00, Z:  1680.00
+Added Beacon at X:  -589.00, Y: -1805.00, Z:  1711.00
+Added Beacon at X:  -556.00, Y:  -587.00, Z:  1709.00
+Added Beacon at X:  -538.00, Y: -1647.00, Z:  1717.00
+Added Beacon at X:  -529.00, Y:  -542.00, Z:  1681.00
+Added Beacon at X:  -371.00, Y:  -602.00, Z:  1721.00
+Added Beacon at X:    35.00, Y: -1237.00, Z:  1112.00
+Added Beacon at X:   171.00, Y: -1125.00, Z:  1056.00
+Added Beacon at X:   583.00, Y: -1998.00, Z:  1726.00
+Added Beacon at X:   585.00, Y: -1920.00, Z:  1757.00
+Added Beacon at X:   609.00, Y: -2046.00, Z:  1721.00
+Added Beacon at X:   729.00, Y:  -720.00, Z:  1917.00
+Added Beacon at X:   776.00, Y:  -733.00, Z:  1864.00
+Added Beacon at X:   805.00, Y:  -861.00, Z:  1985.00
+Scanners remaining: 22
+Comparing --- scanner 13 --- to --- scanner 0 ---
+Skipping --- scanner 13 --- due to 15 matches.
+Comparing --- scanner 14 --- to --- scanner 0 ---
+Skipping --- scanner 14 --- due to 15 matches.
+Comparing --- scanner 15 --- to --- scanner 0 ---
+--- scanner 15 --- has 153 matches.
+--- scanner 15 --- moved to new Location at X: -1007.00, Y: -1211.00, Z:  1138.00
+Added Beacon at X: -1995.00, Y:  -688.00, Z:  1547.00
+Added Beacon at X: -1980.00, Y:  -862.00, Z:  1640.00
+Added Beacon at X: -1944.00, Y:  -881.00, Z:  1498.00
+Added Beacon at X: -1752.00, Y: -1818.00, Z:  1827.00
+Added Beacon at X: -1740.00, Y: -1905.00, Z:  2018.00
+Added Beacon at X: -1738.00, Y: -1745.00, Z:  1934.00
+Added Beacon at X: -1161.00, Y: -1102.00, Z:  1195.00
+Added Beacon at X: -1018.00, Y: -1228.00, Z:  1148.00
+Scanners remaining: 21
+Comparing --- scanner 16 --- to --- scanner 0 ---
+Skipping --- scanner 16 --- due to 0 matches.
+Comparing --- scanner 17 --- to --- scanner 0 ---
+Skipping --- scanner 17 --- due to 15 matches.
+Comparing --- scanner 18 --- to --- scanner 0 ---
+--- scanner 18 --- has 66 matches.
+--- scanner 18 --- moved to new Location at X:    94.00, Y: -1150.00, Z: -2517.00
+Added Beacon at X:  -742.00, Y: -1575.00, Z: -2980.00
+Added Beacon at X:  -662.00, Y: -1697.00, Z: -2960.00
+Added Beacon at X:  -647.00, Y:  -510.00, Z: -3072.00
+Added Beacon at X:  -614.00, Y: -1596.00, Z: -2968.00
+Added Beacon at X:  -587.00, Y:  -462.00, Z: -3100.00
+Added Beacon at X:  -584.00, Y:  -449.00, Z: -3197.00
+Added Beacon at X:    61.00, Y: -1215.00, Z: -2471.00
+Added Beacon at X:   642.00, Y: -1835.00, Z: -3283.00
+Added Beacon at X:   682.00, Y: -1631.00, Z: -3320.00
+Added Beacon at X:   742.00, Y: -1695.00, Z: -3254.00
+Added Beacon at X:   774.00, Y:  -436.00, Z: -2831.00
+Added Beacon at X:   805.00, Y:  -334.00, Z: -2941.00
+Added Beacon at X:   869.00, Y:  -436.00, Z: -2997.00
+Scanners remaining: 20
+Comparing --- scanner 19 --- to --- scanner 0 ---
+--- scanner 19 --- has 66 matches.
+--- scanner 19 --- moved to new Location at X:    84.00, Y: -1142.00, Z:  2403.00
+Added Beacon at X:  -560.00, Y:  -467.00, Z:  3097.00
+Added Beacon at X:  -505.00, Y: -1611.00, Z:  3220.00
+Added Beacon at X:  -494.00, Y:  -565.00, Z:  3079.00
+Added Beacon at X:  -487.00, Y: -1582.00, Z:  3089.00
+Added Beacon at X:  -425.00, Y: -1611.00, Z:  3026.00
+Added Beacon at X:  -399.00, Y:  -430.00, Z:  3078.00
+Added Beacon at X:    22.00, Y: -1140.00, Z:  2359.00
+Added Beacon at X:   511.00, Y: -1843.00, Z:  2899.00
+Added Beacon at X:   564.00, Y: -1926.00, Z:  2966.00
+Added Beacon at X:   595.00, Y:  -402.00, Z:  2904.00
+Added Beacon at X:   627.00, Y: -1985.00, Z:  2913.00
+Added Beacon at X:   645.00, Y:  -522.00, Z:  2820.00
+Added Beacon at X:   651.00, Y:  -487.00, Z:  2859.00
+Scanners remaining: 19
+Comparing --- scanner 20 --- to --- scanner 0 ---
+Skipping --- scanner 20 --- due to 0 matches.
+Comparing --- scanner 21 --- to --- scanner 0 ---
+Skipping --- scanner 21 --- due to 0 matches.
+Comparing --- scanner 22 --- to --- scanner 0 ---
+Skipping --- scanner 22 --- due to 0 matches.
+Comparing --- scanner 23 --- to --- scanner 0 ---
+Skipping --- scanner 23 --- due to 15 matches.
+Comparing --- scanner 24 --- to --- scanner 0 ---
+--- scanner 24 --- has 67 matches.
+--- scanner 24 --- moved to new Location at X: -2255.00, Y: -1123.00, Z:   -11.00
+Added Beacon at X: -3080.00, Y:  -746.00, Z:   657.00
+Added Beacon at X: -3041.00, Y:  -719.00, Z:   801.00
+Added Beacon at X: -3015.00, Y:  -753.00, Z:   798.00
+Added Beacon at X: -2993.00, Y:  -765.00, Z:  -393.00
+Added Beacon at X: -2993.00, Y:  -702.00, Z:  -362.00
+Added Beacon at X: -2984.00, Y:  -870.00, Z:  -443.00
+Added Beacon at X: -2961.00, Y: -1811.00, Z:   582.00
+Added Beacon at X: -2932.00, Y: -1874.00, Z:   557.00
+Added Beacon at X: -2825.00, Y: -1830.00, Z:   504.00
+Added Beacon at X: -2782.00, Y: -1975.00, Z:  -610.00
+Added Beacon at X: -2713.00, Y: -2077.00, Z:  -658.00
+Added Beacon at X: -2701.00, Y: -2003.00, Z:  -625.00
+Added Beacon at X: -2355.00, Y: -1180.00, Z:   -32.00
+Scanners remaining: 18
+Comparing --- scanner 25 --- to --- scanner 0 ---
+--- scanner 25 --- has 66 matches.
+--- scanner 25 --- moved to new Location at X:  1222.00, Y: -1292.00, Z:  1106.00
+Added Beacon at X:  1293.00, Y: -1113.00, Z:  1072.00
+Added Beacon at X:  1306.00, Y: -1264.00, Z:  1246.00
+Added Beacon at X:  1705.00, Y:  -554.00, Z:  1868.00
+Added Beacon at X:  1742.00, Y:  -609.00, Z:  1872.00
+Added Beacon at X:  1756.00, Y: -1515.00, Z:  1685.00
+Added Beacon at X:  1779.00, Y: -1513.00, Z:  1640.00
+Added Beacon at X:  1783.00, Y:  -525.00, Z:  2045.00
+Added Beacon at X:  1790.00, Y: -1572.00, Z:  1636.00
+Added Beacon at X:  1828.00, Y:  -766.00, Z:   621.00
+Added Beacon at X:  1890.00, Y:  -679.00, Z:   586.00
+Added Beacon at X:  1903.00, Y:  -604.00, Z:   643.00
+Added Beacon at X:  1948.00, Y: -1898.00, Z:   496.00
+Added Beacon at X:  1982.00, Y: -1981.00, Z:   677.00
+Added Beacon at X:  2020.00, Y: -1934.00, Z:   615.00
+Scanners remaining: 17
+Comparing --- scanner 26 --- to --- scanner 0 ---
+--- scanner 26 --- has 154 matches.
+--- scanner 26 --- moved to new Location at X:    42.00, Y:   -84.00, Z:  1161.00
+Added Beacon at X:  -669.00, Y:   401.00, Z:  1487.00
+Added Beacon at X:  -589.00, Y:   409.00, Z:  1528.00
+Added Beacon at X:  -557.00, Y:   534.00, Z:  1452.00
+Added Beacon at X:    98.00, Y:   -11.00, Z:  1125.00
+Added Beacon at X:   650.00, Y:   662.00, Z:  1767.00
+Added Beacon at X:   690.00, Y:   504.00, Z:  1750.00
+Added Beacon at X:   835.00, Y:   593.00, Z:  1733.00
+Scanners remaining: 16
+Comparing --- scanner 1 --- to --- scanner 0 ---
+Skipping --- scanner 1 --- due to 36 matches.
+Comparing --- scanner 3 --- to --- scanner 0 ---
+Skipping --- scanner 3 --- due to 0 matches.
+Comparing --- scanner 4 --- to --- scanner 0 ---
+--- scanner 4 --- has 66 matches.
+--- scanner 4 --- moved to new Location at X:    59.00, Y:  1202.00, Z:  1119.00
+Added Beacon at X:  -696.00, Y:  1714.00, Z:  1854.00
+Added Beacon at X:  -620.00, Y:  1794.00, Z:   529.00
+Added Beacon at X:  -602.00, Y:  1564.00, Z:  1889.00
+Added Beacon at X:  -577.00, Y:  1657.00, Z:  1956.00
+Added Beacon at X:  -566.00, Y:  1660.00, Z:   420.00
+Added Beacon at X:  -554.00, Y:  1710.00, Z:   420.00
+Added Beacon at X:    12.00, Y:  1135.00, Z:  1057.00
+Added Beacon at X:    98.00, Y:  1236.00, Z:  1243.00
+Added Beacon at X:   404.00, Y:  2088.00, Z:   337.00
+Added Beacon at X:   512.00, Y:  2023.00, Z:   273.00
+Added Beacon at X:   537.00, Y:  2095.00, Z:   411.00
+Added Beacon at X:   566.00, Y:  1788.00, Z:  1584.00
+Added Beacon at X:   586.00, Y:  1733.00, Z:  1457.00
+Added Beacon at X:   618.00, Y:  1937.00, Z:  1513.00
+Scanners remaining: 15
+Comparing --- scanner 5 --- to --- scanner 0 ---
+--- scanner 5 --- has 154 matches.
+--- scanner 5 --- moved to new Location at X:  1248.00, Y:   -92.00, Z:  1150.00
+Added Beacon at X:  1210.00, Y:     0.00, Z:  1143.00
+Added Beacon at X:  1371.00, Y:    54.00, Z:  1233.00
+Added Beacon at X:  1771.00, Y:   557.00, Z:   724.00
+Added Beacon at X:  1785.00, Y:   415.00, Z:   753.00
+Added Beacon at X:  1830.00, Y:   623.00, Z:   755.00
+Added Beacon at X:  1927.00, Y:   856.00, Z:  1815.00
+Added Beacon at X:  2028.00, Y:   881.00, Z:  1761.00
+Added Beacon at X:  2049.00, Y:   821.00, Z:  1914.00
+Scanners remaining: 14
+Comparing --- scanner 6 --- to --- scanner 0 ---
+--- scanner 6 --- has 153 matches.
+--- scanner 6 --- moved to new Location at X:  1226.00, Y:  1228.00, Z:  1133.00
+Added Beacon at X:  1249.00, Y:  1287.00, Z:  1078.00
+Added Beacon at X:  1334.00, Y:  1158.00, Z:  1183.00
+Added Beacon at X:  1698.00, Y:  1968.00, Z:  1802.00
+Added Beacon at X:  1835.00, Y:  1902.00, Z:  1809.00
+Added Beacon at X:  1836.00, Y:  2042.00, Z:  1767.00
+Added Beacon at X:  2084.00, Y:  1788.00, Z:   777.00
+Added Beacon at X:  2103.00, Y:  1905.00, Z:   775.00
+Added Beacon at X:  2110.00, Y:  1738.00, Z:   757.00
+Scanners remaining: 13
+Comparing --- scanner 7 --- to --- scanner 0 ---
+--- scanner 7 --- has 67 matches.
+--- scanner 7 --- moved to new Location at X:  1337.00, Y: -2482.00, Z:  1108.00
+Added Beacon at X:   419.00, Y: -2881.00, Z:   628.00
+Added Beacon at X:   478.00, Y: -2925.00, Z:   549.00
+Added Beacon at X:   498.00, Y: -2810.00, Z:   525.00
+Added Beacon at X:   861.00, Y: -3087.00, Z:  1977.00
+Added Beacon at X:   910.00, Y: -3236.00, Z:  1990.00
+Added Beacon at X:   921.00, Y: -3203.00, Z:  2004.00
+Added Beacon at X:  1199.00, Y: -2379.00, Z:  1236.00
+Added Beacon at X:  1330.00, Y: -2470.00, Z:  1124.00
+Added Beacon at X:  1641.00, Y: -3201.00, Z:   826.00
+Added Beacon at X:  1644.00, Y: -3040.00, Z:   798.00
+Added Beacon at X:  1770.00, Y: -3167.00, Z:   799.00
+Added Beacon at X:  1890.00, Y: -2924.00, Z:  1585.00
+Added Beacon at X:  1942.00, Y: -2757.00, Z:  1562.00
+Added Beacon at X:  1992.00, Y: -2991.00, Z:  1555.00
+Scanners remaining: 12
+Comparing --- scanner 9 --- to --- scanner 0 ---
+Skipping --- scanner 9 --- due to 1 matches.
+Comparing --- scanner 11 --- to --- scanner 0 ---
+Skipping --- scanner 11 --- due to 15 matches.
+Comparing --- scanner 13 --- to --- scanner 0 ---
+--- scanner 13 --- has 153 matches.
+--- scanner 13 --- moved to new Location at X:  1380.00, Y: -1177.00, Z:  2341.00
+Added Beacon at X:  1210.00, Y: -1210.00, Z:  2272.00
+Added Beacon at X:  1335.00, Y: -1233.00, Z:  2443.00
+Added Beacon at X:  1867.00, Y:  -382.00, Z:  2812.00
+Added Beacon at X:  1910.00, Y: -1765.00, Z:  3138.00
+Added Beacon at X:  1922.00, Y:  -362.00, Z:  2875.00
+Added Beacon at X:  1927.00, Y: -1881.00, Z:  3092.00
+Added Beacon at X:  1946.00, Y: -1869.00, Z:  3216.00
+Added Beacon at X:  2005.00, Y:  -294.00, Z:  2859.00
+Scanners remaining: 11
+Comparing --- scanner 14 --- to --- scanner 0 ---
+--- scanner 14 --- has 67 matches.
+--- scanner 14 --- moved to new Location at X:   147.00, Y: -2303.00, Z: -2414.00
+Added Beacon at X:  -761.00, Y: -2911.00, Z: -3006.00
+Added Beacon at X:  -649.00, Y: -2884.00, Z: -3012.00
+Added Beacon at X:  -618.00, Y: -2857.00, Z: -2929.00
+Added Beacon at X:  -563.00, Y: -3182.00, Z: -1939.00
+Added Beacon at X:  -558.00, Y: -3072.00, Z: -1775.00
+Added Beacon at X:  -543.00, Y: -3140.00, Z: -1838.00
+Added Beacon at X:    27.00, Y: -2402.00, Z: -2413.00
+Added Beacon at X:   183.00, Y: -2304.00, Z: -2485.00
+Added Beacon at X:   489.00, Y: -2981.00, Z: -1727.00
+Added Beacon at X:   540.00, Y: -3109.00, Z: -1715.00
+Added Beacon at X:   555.00, Y: -2917.00, Z: -1735.00
+Added Beacon at X:   641.00, Y: -2755.00, Z: -3047.00
+Added Beacon at X:   851.00, Y: -2746.00, Z: -3042.00
+Added Beacon at X:   863.00, Y: -2746.00, Z: -3038.00
+Scanners remaining: 10
+Comparing --- scanner 16 --- to --- scanner 0 ---
+--- scanner 16 --- has 66 matches.
+--- scanner 16 --- moved to new Location at X:  2528.00, Y: -2466.00, Z:  1184.00
+Added Beacon at X:  2403.00, Y: -2382.00, Z:  1194.00
+Added Beacon at X:  2551.00, Y: -2342.00, Z:  1072.00
+Added Beacon at X:  2844.00, Y: -1904.00, Z:  2007.00
+Added Beacon at X:  2911.00, Y: -1998.00, Z:  1884.00
+Added Beacon at X:  2947.00, Y: -3026.00, Z:   537.00
+Added Beacon at X:  2984.00, Y: -1944.00, Z:  1921.00
+Added Beacon at X:  2991.00, Y: -3111.00, Z:   424.00
+Added Beacon at X:  3000.00, Y: -3079.00, Z:  1937.00
+Added Beacon at X:  3003.00, Y: -3117.00, Z:   439.00
+Added Beacon at X:  3030.00, Y: -3138.00, Z:  1855.00
+Added Beacon at X:  3159.00, Y: -3133.00, Z:  2012.00
+Added Beacon at X:  3203.00, Y: -1971.00, Z:   835.00
+Added Beacon at X:  3293.00, Y: -1921.00, Z:   830.00
+Added Beacon at X:  3339.00, Y: -1990.00, Z:   816.00
+Scanners remaining: 9
+Comparing --- scanner 17 --- to --- scanner 0 ---
+--- scanner 17 --- has 105 matches.
+--- scanner 17 --- moved to new Location at X:    63.00, Y: -2422.00, Z:  2442.00
+Added Beacon at X:  -747.00, Y: -2731.00, Z:  1736.00
+Added Beacon at X:  -730.00, Y: -2793.00, Z:  1753.00
+Added Beacon at X:  -706.00, Y: -2913.00, Z:  1672.00
+Added Beacon at X:  -651.00, Y: -2731.00, Z:  3094.00
+Added Beacon at X:  -629.00, Y: -2860.00, Z:  2980.00
+Added Beacon at X:  -553.00, Y: -2747.00, Z:  2966.00
+Added Beacon at X:    63.00, Y: -2491.00, Z:  2424.00
+Added Beacon at X:   192.00, Y: -2334.00, Z:  2290.00
+Added Beacon at X:   884.00, Y: -2865.00, Z:  2829.00
+Added Beacon at X:   917.00, Y: -2940.00, Z:  2971.00
+Added Beacon at X:   929.00, Y: -2849.00, Z:  3048.00
+Scanners remaining: 8
+Comparing --- scanner 20 --- to --- scanner 0 ---
+Skipping --- scanner 20 --- due to 0 matches.
+Comparing --- scanner 21 --- to --- scanner 0 ---
+--- scanner 21 --- has 66 matches.
+--- scanner 21 --- moved to new Location at X:  3650.00, Y: -2428.00, Z:  1199.00
+Added Beacon at X:  3701.00, Y: -2440.00, Z:  1140.00
+Added Beacon at X:  4194.00, Y: -2005.00, Z:   296.00
+Added Beacon at X:  4253.00, Y: -3065.00, Z:   795.00
+Added Beacon at X:  4317.00, Y: -3008.00, Z:   825.00
+Added Beacon at X:  4328.00, Y: -3243.00, Z:  1852.00
+Added Beacon at X:  4343.00, Y: -2018.00, Z:   398.00
+Added Beacon at X:  4359.00, Y: -3223.00, Z:  1937.00
+Added Beacon at X:  4367.00, Y: -3273.00, Z:  1813.00
+Added Beacon at X:  4396.00, Y: -2013.00, Z:   307.00
+Added Beacon at X:  4412.00, Y: -3074.00, Z:   750.00
+Added Beacon at X:  4467.00, Y: -1748.00, Z:  1499.00
+Added Beacon at X:  4506.00, Y: -1588.00, Z:  1544.00
+Added Beacon at X:  4581.00, Y: -1725.00, Z:  1510.00
+Scanners remaining: 7
+Comparing --- scanner 22 --- to --- scanner 0 ---
+--- scanner 22 --- has 68 matches.
+--- scanner 22 --- moved to new Location at X:  2512.00, Y:   -32.00, Z:  1212.00
+Added Beacon at X:  2463.00, Y:     0.00, Z:  1158.00
+Added Beacon at X:  2889.00, Y:   799.00, Z:   533.00
+Added Beacon at X:  2934.00, Y:  -623.00, Z:  1871.00
+Added Beacon at X:  2948.00, Y:   666.00, Z:   436.00
+Added Beacon at X:  3010.00, Y:  -792.00, Z:  1845.00
+Added Beacon at X:  3010.00, Y:   825.00, Z:  1471.00
+Added Beacon at X:  3031.00, Y:   738.00, Z:  1467.00
+Added Beacon at X:  3034.00, Y:   820.00, Z:   472.00
+Added Beacon at X:  3061.00, Y:  -635.00, Z:   630.00
+Added Beacon at X:  3080.00, Y:  -614.00, Z:  1885.00
+Added Beacon at X:  3103.00, Y:   867.00, Z:  1514.00
+Added Beacon at X:  3156.00, Y:  -508.00, Z:   557.00
+Added Beacon at X:  3182.00, Y:  -656.00, Z:   494.00
+Scanners remaining: 6
+Comparing --- scanner 23 --- to --- scanner 0 ---
+--- scanner 23 --- has 105 matches.
+--- scanner 23 --- moved to new Location at X:  1386.00, Y:  1215.00, Z:    23.00
+Added Beacon at X:   819.00, Y:  1965.00, Z:  -858.00
+Added Beacon at X:   899.00, Y:  1904.00, Z:  -803.00
+Added Beacon at X:   935.00, Y:  1859.00, Z:  -847.00
+Added Beacon at X:  1206.00, Y:  1237.00, Z:  -151.00
+Added Beacon at X:  1294.00, Y:  1180.00, Z:    34.00
+Added Beacon at X:  1937.00, Y:  1543.00, Z:  -584.00
+Added Beacon at X:  1944.00, Y:  1736.00, Z:  -593.00
+Added Beacon at X:  1949.00, Y:   533.00, Z:  -580.00
+Added Beacon at X:  2027.00, Y:  1631.00, Z:  -668.00
+Added Beacon at X:  2035.00, Y:   548.00, Z:  -677.00
+Added Beacon at X:  2038.00, Y:   488.00, Z:  -561.00
+Scanners remaining: 5
+Comparing --- scanner 1 --- to --- scanner 0 ---
+--- scanner 1 --- has 210 matches.
+--- scanner 1 --- moved to new Location at X:  1359.00, Y: -2363.00, Z:  2386.00
+Added Beacon at X:  1199.00, Y: -2392.00, Z:  2404.00
+Added Beacon at X:  1343.00, Y: -2314.00, Z:  2291.00
+Added Beacon at X:  1903.00, Y: -3112.00, Z:  2789.00
+Added Beacon at X:  2026.00, Y: -3079.00, Z:  2676.00
+Added Beacon at X:  2034.00, Y: -3097.00, Z:  2828.00
+Scanners remaining: 4
+Comparing --- scanner 3 --- to --- scanner 0 ---
+--- scanner 3 --- has 66 matches.
+--- scanner 3 --- moved to new Location at X:  1219.00, Y:  2450.00, Z:  1192.00
+Added Beacon at X:   606.00, Y:  3246.00, Z:  1475.00
+Added Beacon at X:   659.00, Y:  3127.00, Z:  1459.00
+Added Beacon at X:   739.00, Y:  3272.00, Z:  1459.00
+Added Beacon at X:   886.00, Y:  3304.00, Z:   790.00
+Added Beacon at X:   915.00, Y:  3077.00, Z:   824.00
+Added Beacon at X:   924.00, Y:  3124.00, Z:   774.00
+Added Beacon at X:  1255.00, Y:  2316.00, Z:  1104.00
+Added Beacon at X:  1357.00, Y:  2486.00, Z:  1232.00
+Added Beacon at X:  1616.00, Y:  3099.00, Z:  1933.00
+Added Beacon at X:  1708.00, Y:  2936.00, Z:  1925.00
+Added Beacon at X:  1769.00, Y:  3016.00, Z:  1876.00
+Added Beacon at X:  1860.00, Y:  2990.00, Z:   540.00
+Added Beacon at X:  1892.00, Y:  2920.00, Z:   464.00
+Added Beacon at X:  2008.00, Y:  2932.00, Z:   607.00
+Scanners remaining: 3
+Comparing --- scanner 9 --- to --- scanner 0 ---
+--- scanner 9 --- has 153 matches.
+--- scanner 9 --- moved to new Location at X:  3788.00, Y: -1230.00, Z:  1220.00
+Added Beacon at X:  3609.00, Y: -1244.00, Z:  1123.00
+Added Beacon at X:  3782.00, Y: -1126.00, Z:  1060.00
+Added Beacon at X:  4162.00, Y:  -414.00, Z:  1459.00
+Added Beacon at X:  4192.00, Y:  -511.00, Z:  1623.00
+Added Beacon at X:  4273.00, Y:  -460.00, Z:  1572.00
+Added Beacon at X:  4378.00, Y:  -716.00, Z:   339.00
+Added Beacon at X:  4457.00, Y:  -746.00, Z:   414.00
+Added Beacon at X:  4503.00, Y:  -673.00, Z:   289.00
+Scanners remaining: 2
+Comparing --- scanner 11 --- to --- scanner 0 ---
+--- scanner 11 --- has 153 matches.
+--- scanner 11 --- moved to new Location at X:  1274.00, Y:  2314.00, Z:  -144.00
+Added Beacon at X:   774.00, Y:  3073.00, Z:  -472.00
+Added Beacon at X:   774.00, Y:  3125.00, Z:  -367.00
+Added Beacon at X:   918.00, Y:  3153.00, Z:  -459.00
+Added Beacon at X:  1200.00, Y:  2353.00, Z:    -1.00
+Added Beacon at X:  1329.00, Y:  2479.00, Z:   -60.00
+Added Beacon at X:  2046.00, Y:  2803.00, Z:  -477.00
+Added Beacon at X:  2103.00, Y:  2864.00, Z:  -371.00
+Added Beacon at X:  2137.00, Y:  2988.00, Z:  -468.00
+Scanners remaining: 1
+Comparing --- scanner 20 --- to --- scanner 0 ---
+--- scanner 20 --- has 66 matches.
+--- scanner 20 --- moved to new Location at X:  1316.00, Y:  3662.00, Z:  1082.00
+Added Beacon at X:   396.00, Y:  4263.00, Z:   497.00
+Added Beacon at X:   416.00, Y:  4183.00, Z:   389.00
+Added Beacon at X:   503.00, Y:  4264.00, Z:   408.00
+Added Beacon at X:   551.00, Y:  4469.00, Z:  1871.00
+Added Beacon at X:   669.00, Y:  4436.00, Z:  1874.00
+Added Beacon at X:   721.00, Y:  4470.00, Z:  1845.00
+Added Beacon at X:  1235.00, Y:  3554.00, Z:  1224.00
+Added Beacon at X:  1297.00, Y:  3654.00, Z:  1050.00
+Added Beacon at X:  2080.00, Y:  4090.00, Z:   301.00
+Added Beacon at X:  2088.00, Y:  4151.00, Z:   271.00
+Added Beacon at X:  2099.00, Y:  4139.00, Z:  1947.00
+Added Beacon at X:  2127.00, Y:  4160.00, Z:  1719.00
+Added Beacon at X:  2140.00, Y:  4206.00, Z:  1782.00
+Added Beacon at X:  2169.00, Y:  4232.00, Z:   265.00
+Scanners remaining: 0
+Scanner: --- scanner 0 --- with 326 Beacons at X:     0.00, Y:     0.00, Z:     0.00
+Beacon:    1  |  X: -3080.00, Y:  -746.00, Z:   657.00
+Beacon:    2  |  X: -3041.00, Y:  -719.00, Z:   801.00
+Beacon:    3  |  X: -3015.00, Y:  -753.00, Z:   798.00
+Beacon:    4  |  X: -2993.00, Y:  -765.00, Z:  -393.00
+Beacon:    5  |  X: -2993.00, Y:  -702.00, Z:  -362.00
+Beacon:    6  |  X: -2984.00, Y:  -870.00, Z:  -443.00
+Beacon:    7  |  X: -2961.00, Y: -1811.00, Z:   582.00
+Beacon:    8  |  X: -2932.00, Y: -1874.00, Z:   557.00
+Beacon:    9  |  X: -2825.00, Y: -1830.00, Z:   504.00
+Beacon:   10  |  X: -2782.00, Y: -1975.00, Z:  -610.00
+Beacon:   11  |  X: -2713.00, Y: -2077.00, Z:  -658.00
+Beacon:   12  |  X: -2701.00, Y: -2003.00, Z:  -625.00
+Beacon:   13  |  X: -2355.00, Y: -1180.00, Z:   -32.00
+Beacon:   14  |  X: -1995.00, Y:  -688.00, Z:  1547.00
+Beacon:   15  |  X: -1980.00, Y:  -862.00, Z:  1640.00
+Beacon:   16  |  X: -1967.00, Y: -1849.00, Z:   570.00
+Beacon:   17  |  X: -1944.00, Y:  -881.00, Z:  1498.00
+Beacon:   18  |  X: -1940.00, Y:  -727.00, Z:  -786.00
+Beacon:   19  |  X: -1937.00, Y:  -761.00, Z:  -874.00
+Beacon:   20  |  X: -1936.00, Y:  -889.00, Z:  -859.00
+Beacon:   21  |  X: -1932.00, Y:  -778.00, Z:   700.00
+Beacon:   22  |  X: -1898.00, Y:  -805.00, Z:   711.00
+Beacon:   23  |  X: -1897.00, Y: -1880.00, Z:   482.00
+Beacon:   24  |  X: -1875.00, Y:  -683.00, Z:   679.00
+Beacon:   25  |  X: -1823.00, Y: -1590.00, Z:  -829.00
+Beacon:   26  |  X: -1790.00, Y: -1722.00, Z:  -800.00
+Beacon:   27  |  X: -1761.00, Y: -1671.00, Z:  -906.00
+Beacon:   28  |  X: -1752.00, Y: -1818.00, Z:  1827.00
+Beacon:   29  |  X: -1750.00, Y: -1859.00, Z:   550.00
+Beacon:   30  |  X: -1740.00, Y: -1905.00, Z:  2018.00
+Beacon:   31  |  X: -1738.00, Y: -1745.00, Z:  1934.00
+Beacon:   32  |  X: -1161.00, Y: -1102.00, Z:  1195.00
+Beacon:   33  |  X: -1092.00, Y: -1223.00, Z:   -81.00
+Beacon:   34  |  X: -1018.00, Y: -1228.00, Z:  1148.00
+Beacon:   35  |  X:  -761.00, Y: -2911.00, Z: -3006.00
+Beacon:   36  |  X:  -747.00, Y: -2731.00, Z:  1736.00
+Beacon:   37  |  X:  -742.00, Y: -1575.00, Z: -2980.00
+Beacon:   38  |  X:  -730.00, Y: -2793.00, Z:  1753.00
+Beacon:   39  |  X:  -706.00, Y: -2913.00, Z:  1672.00
+Beacon:   40  |  X:  -696.00, Y:  1714.00, Z:  1854.00
+Beacon:   41  |  X:  -669.00, Y:   401.00, Z:  1487.00
+Beacon:   42  |  X:  -664.00, Y: -1733.00, Z:  1680.00
+Beacon:   43  |  X:  -662.00, Y: -1697.00, Z: -2960.00
+Beacon:   44  |  X:  -651.00, Y: -2731.00, Z:  3094.00
+Beacon:   45  |  X:  -649.00, Y: -2884.00, Z: -3012.00
+Beacon:   46  |  X:  -649.00, Y: -1864.00, Z:  -492.00
+Beacon:   47  |  X:  -647.00, Y:  -510.00, Z: -3072.00
+Beacon:   48  |  X:  -629.00, Y: -2860.00, Z:  2980.00
+Beacon:   49  |  X:  -620.00, Y:  1794.00, Z:   529.00
+Beacon:   50  |  X:  -618.00, Y: -2857.00, Z: -2929.00
+Beacon:   51  |  X:  -614.00, Y: -1596.00, Z: -2968.00
+Beacon:   52  |  X:  -602.00, Y:  1564.00, Z:  1889.00
+Beacon:   53  |  X:  -589.00, Y: -1805.00, Z:  1711.00
+Beacon:   54  |  X:  -589.00, Y:   409.00, Z:  1528.00
+Beacon:   55  |  X:  -587.00, Y:  -462.00, Z: -3100.00
+Beacon:   56  |  X:  -584.00, Y:  -449.00, Z: -3197.00
+Beacon:   57  |  X:  -577.00, Y:  1657.00, Z:  1956.00
+Beacon:   58  |  X:  -570.00, Y:  -813.00, Z:  -631.00
+Beacon:   59  |  X:  -566.00, Y:  1660.00, Z:   420.00
+Beacon:   60  |  X:  -563.00, Y: -3182.00, Z: -1939.00
+Beacon:   61  |  X:  -560.00, Y:  -467.00, Z:  3097.00
+Beacon:   62  |  X:  -558.00, Y: -3072.00, Z: -1775.00
+Beacon:   63  |  X:  -557.00, Y:   534.00, Z:  1452.00
+Beacon:   64  |  X:  -556.00, Y:  -587.00, Z:  1709.00
+Beacon:   65  |  X:  -554.00, Y:  1710.00, Z:   420.00
+Beacon:   66  |  X:  -553.00, Y: -2747.00, Z:  2966.00
+Beacon:   67  |  X:  -543.00, Y: -3140.00, Z: -1838.00
+Beacon:   68  |  X:  -538.00, Y: -1647.00, Z:  1717.00
+Beacon:   69  |  X:  -529.00, Y:  -542.00, Z:  1681.00
+Beacon:   70  |  X:  -519.00, Y:   542.00, Z:   672.00
+Beacon:   71  |  X:  -506.00, Y: -1879.00, Z:  -451.00
+Beacon:   72  |  X:  -505.00, Y: -1611.00, Z:  3220.00
+Beacon:   73  |  X:  -494.00, Y:  -565.00, Z:  3079.00
+Beacon:   74  |  X:  -487.00, Y: -1582.00, Z:  3089.00
+Beacon:   75  |  X:  -476.00, Y:  -823.00, Z:  -648.00
+Beacon:   76  |  X:  -436.00, Y:  -831.00, Z:  -723.00
+Beacon:   77  |  X:  -425.00, Y: -1611.00, Z:  3026.00
+Beacon:   78  |  X:  -419.00, Y:   435.00, Z:  -860.00
+Beacon:   79  |  X:  -414.00, Y: -1898.00, Z:  -505.00
+Beacon:   80  |  X:  -411.00, Y: -2051.00, Z:   468.00
+Beacon:   81  |  X:  -407.00, Y:  -620.00, Z: -1571.00
+Beacon:   82  |  X:  -404.00, Y:  -506.00, Z:   511.00
+Beacon:   83  |  X:  -399.00, Y:  -430.00, Z:  3078.00
+Beacon:   84  |  X:  -377.00, Y: -1577.00, Z: -1873.00
+Beacon:   85  |  X:  -373.00, Y:  -505.00, Z:   495.00
+Beacon:   86  |  X:  -371.00, Y:  -602.00, Z:  1721.00
+Beacon:   87  |  X:  -365.00, Y:   555.00, Z:   740.00
+Beacon:   88  |  X:  -364.00, Y:  -696.00, Z: -1626.00
+Beacon:   89  |  X:  -363.00, Y: -2061.00, Z:   279.00
+Beacon:   90  |  X:  -356.00, Y: -1702.00, Z: -1994.00
+Beacon:   91  |  X:  -347.00, Y:  -413.00, Z:   630.00
+Beacon:   92  |  X:  -336.00, Y: -1630.00, Z: -1990.00
+Beacon:   93  |  X:  -329.00, Y: -1997.00, Z:   452.00
+Beacon:   94  |  X:  -307.00, Y:   484.00, Z:  -878.00
+Beacon:   95  |  X:  -282.00, Y:   574.00, Z:   699.00
+Beacon:   96  |  X:  -274.00, Y:  -552.00, Z: -1576.00
+Beacon:   97  |  X:  -258.00, Y:   463.00, Z:  -934.00
+Beacon:   98  |  X:    12.00, Y:    23.00, Z:  -110.00
+Beacon:   99  |  X:    12.00, Y:  1135.00, Z:  1057.00
+Beacon:  100  |  X:    22.00, Y: -1140.00, Z:  2359.00
+Beacon:  101  |  X:    27.00, Y: -2402.00, Z: -2413.00
+Beacon:  102  |  X:    28.00, Y: -1259.00, Z: -1269.00
+Beacon:  103  |  X:    35.00, Y: -1237.00, Z:  1112.00
+Beacon:  104  |  X:    61.00, Y: -1215.00, Z: -2471.00
+Beacon:  105  |  X:    63.00, Y: -2491.00, Z:  2424.00
+Beacon:  106  |  X:    79.00, Y: -1252.00, Z:   -18.00
+Beacon:  107  |  X:    98.00, Y:   -84.00, Z:    19.00
+Beacon:  108  |  X:    98.00, Y:   -11.00, Z:  1125.00
+Beacon:  109  |  X:    98.00, Y:  1236.00, Z:  1243.00
+Beacon:  110  |  X:   167.00, Y: -1095.00, Z: -1174.00
+Beacon:  111  |  X:   171.00, Y: -1125.00, Z:  1056.00
+Beacon:  112  |  X:   172.00, Y: -1124.00, Z:  -126.00
+Beacon:  113  |  X:   183.00, Y: -2304.00, Z: -2485.00
+Beacon:  114  |  X:   192.00, Y: -2334.00, Z:  2290.00
+Beacon:  115  |  X:   396.00, Y:  4263.00, Z:   497.00
+Beacon:  116  |  X:   404.00, Y:  2088.00, Z:   337.00
+Beacon:  117  |  X:   408.00, Y: -1891.00, Z:   572.00
+Beacon:  118  |  X:   416.00, Y:  4183.00, Z:   389.00
+Beacon:  119  |  X:   417.00, Y: -2080.00, Z:   634.00
+Beacon:  120  |  X:   419.00, Y: -2881.00, Z:   628.00
+Beacon:  121  |  X:   459.00, Y: -1839.00, Z: -1585.00
+Beacon:  122  |  X:   463.00, Y: -1940.00, Z: -1633.00
+Beacon:  123  |  X:   464.00, Y: -1972.00, Z:   707.00
+Beacon:  124  |  X:   478.00, Y: -2925.00, Z:   549.00
+Beacon:  125  |  X:   484.00, Y: -1811.00, Z: -1574.00
+Beacon:  126  |  X:   489.00, Y: -2981.00, Z: -1727.00
+Beacon:  127  |  X:   498.00, Y: -2810.00, Z:   525.00
+Beacon:  128  |  X:   503.00, Y:  4264.00, Z:   408.00
+Beacon:  129  |  X:   511.00, Y: -1843.00, Z:  2899.00
+Beacon:  130  |  X:   511.00, Y:   436.00, Z:  -465.00
+Beacon:  131  |  X:   512.00, Y:  2023.00, Z:   273.00
+Beacon:  132  |  X:   537.00, Y:  2095.00, Z:   411.00
+Beacon:  133  |  X:   540.00, Y: -3109.00, Z: -1715.00
+Beacon:  134  |  X:   547.00, Y:  -611.00, Z: -1699.00
+Beacon:  135  |  X:   549.00, Y:   684.00, Z:  -453.00
+Beacon:  136  |  X:   551.00, Y:  4469.00, Z:  1871.00
+Beacon:  137  |  X:   555.00, Y: -2917.00, Z: -1735.00
+Beacon:  138  |  X:   563.00, Y:  -665.00, Z: -1705.00
+Beacon:  139  |  X:   564.00, Y: -1926.00, Z:  2966.00
+Beacon:  140  |  X:   566.00, Y:  1788.00, Z:  1584.00
+Beacon:  141  |  X:   583.00, Y: -1998.00, Z:  1726.00
+Beacon:  142  |  X:   585.00, Y: -1920.00, Z:  1757.00
+Beacon:  143  |  X:   586.00, Y:  1733.00, Z:  1457.00
+Beacon:  144  |  X:   588.00, Y:   476.00, Z:  -482.00
+Beacon:  145  |  X:   595.00, Y:  -402.00, Z:  2904.00
+Beacon:  146  |  X:   606.00, Y:  3246.00, Z:  1475.00
+Beacon:  147  |  X:   609.00, Y: -2046.00, Z:  1721.00
+Beacon:  148  |  X:   618.00, Y:  1937.00, Z:  1513.00
+Beacon:  149  |  X:   627.00, Y: -1985.00, Z:  2913.00
+Beacon:  150  |  X:   640.00, Y:  -497.00, Z: -1651.00
+Beacon:  151  |  X:   641.00, Y: -2755.00, Z: -3047.00
+Beacon:  152  |  X:   642.00, Y: -1835.00, Z: -3283.00
+Beacon:  153  |  X:   645.00, Y:  -522.00, Z:  2820.00
+Beacon:  154  |  X:   650.00, Y:   662.00, Z:  1767.00
+Beacon:  155  |  X:   651.00, Y:  -487.00, Z:  2859.00
+Beacon:  156  |  X:   657.00, Y:  -349.00, Z:  -883.00
+Beacon:  157  |  X:   659.00, Y:  3127.00, Z:  1459.00
+Beacon:  158  |  X:   669.00, Y:  4436.00, Z:  1874.00
+Beacon:  159  |  X:   682.00, Y: -1631.00, Z: -3320.00
+Beacon:  160  |  X:   688.00, Y:  -374.00, Z:  -647.00
+Beacon:  161  |  X:   690.00, Y:   504.00, Z:  1750.00
+Beacon:  162  |  X:   698.00, Y:   631.00, Z:   705.00
+Beacon:  163  |  X:   718.00, Y:   500.00, Z:   661.00
+Beacon:  164  |  X:   721.00, Y:  4470.00, Z:  1845.00
+Beacon:  165  |  X:   726.00, Y:  -431.00, Z:  -735.00
+Beacon:  166  |  X:   729.00, Y:  -720.00, Z:  1917.00
+Beacon:  167  |  X:   738.00, Y: -1595.00, Z:  -520.00
+Beacon:  168  |  X:   739.00, Y:  3272.00, Z:  1459.00
+Beacon:  169  |  X:   742.00, Y: -1695.00, Z: -3254.00
+Beacon:  170  |  X:   749.00, Y: -1609.00, Z:  -598.00
+Beacon:  171  |  X:   760.00, Y:   538.00, Z:   748.00
+Beacon:  172  |  X:   761.00, Y: -1641.00, Z:  -453.00
+Beacon:  173  |  X:   774.00, Y:  -436.00, Z: -2831.00
+Beacon:  174  |  X:   774.00, Y:  3073.00, Z:  -472.00
+Beacon:  175  |  X:   774.00, Y:  3125.00, Z:  -367.00
+Beacon:  176  |  X:   776.00, Y:  -733.00, Z:  1864.00
+Beacon:  177  |  X:   805.00, Y:  -861.00, Z:  1985.00
+Beacon:  178  |  X:   805.00, Y:  -334.00, Z: -2941.00
+Beacon:  179  |  X:   819.00, Y:  1965.00, Z:  -858.00
+Beacon:  180  |  X:   835.00, Y:   593.00, Z:  1733.00
+Beacon:  181  |  X:   851.00, Y: -2746.00, Z: -3042.00
+Beacon:  182  |  X:   861.00, Y: -3087.00, Z:  1977.00
+Beacon:  183  |  X:   863.00, Y: -2746.00, Z: -3038.00
+Beacon:  184  |  X:   869.00, Y:  -436.00, Z: -2997.00
+Beacon:  185  |  X:   884.00, Y: -2865.00, Z:  2829.00
+Beacon:  186  |  X:   886.00, Y:  3304.00, Z:   790.00
+Beacon:  187  |  X:   899.00, Y:  1904.00, Z:  -803.00
+Beacon:  188  |  X:   910.00, Y: -3236.00, Z:  1990.00
+Beacon:  189  |  X:   913.00, Y:  -376.00, Z:   524.00
+Beacon:  190  |  X:   915.00, Y:  3077.00, Z:   824.00
+Beacon:  191  |  X:   917.00, Y: -2940.00, Z:  2971.00
+Beacon:  192  |  X:   918.00, Y:  3153.00, Z:  -459.00
+Beacon:  193  |  X:   921.00, Y: -3203.00, Z:  2004.00
+Beacon:  194  |  X:   924.00, Y:  3124.00, Z:   774.00
+Beacon:  195  |  X:   929.00, Y: -2849.00, Z:  3048.00
+Beacon:  196  |  X:   935.00, Y:  1859.00, Z:  -847.00
+Beacon:  197  |  X:   969.00, Y:  -333.00, Z:   525.00
+Beacon:  198  |  X:   974.00, Y:  -314.00, Z:   431.00
+Beacon:  199  |  X:  1199.00, Y: -2392.00, Z:  2404.00
+Beacon:  200  |  X:  1199.00, Y: -2379.00, Z:  1236.00
+Beacon:  201  |  X:  1200.00, Y:  2353.00, Z:    -1.00
+Beacon:  202  |  X:  1206.00, Y:  1237.00, Z:  -151.00
+Beacon:  203  |  X:  1210.00, Y: -1210.00, Z:  2272.00
+Beacon:  204  |  X:  1210.00, Y:     0.00, Z:  1143.00
+Beacon:  205  |  X:  1235.00, Y:  3554.00, Z:  1224.00
+Beacon:  206  |  X:  1249.00, Y:  1287.00, Z:  1078.00
+Beacon:  207  |  X:  1255.00, Y:  2316.00, Z:  1104.00
+Beacon:  208  |  X:  1293.00, Y: -1113.00, Z:  1072.00
+Beacon:  209  |  X:  1294.00, Y:  1180.00, Z:    34.00
+Beacon:  210  |  X:  1297.00, Y:  3654.00, Z:  1050.00
+Beacon:  211  |  X:  1306.00, Y: -1264.00, Z:  1246.00
+Beacon:  212  |  X:  1329.00, Y:  2479.00, Z:   -60.00
+Beacon:  213  |  X:  1330.00, Y: -2470.00, Z:  1124.00
+Beacon:  214  |  X:  1334.00, Y:  1158.00, Z:  1183.00
+Beacon:  215  |  X:  1335.00, Y: -1233.00, Z:  2443.00
+Beacon:  216  |  X:  1343.00, Y: -2314.00, Z:  2291.00
+Beacon:  217  |  X:  1357.00, Y:  2486.00, Z:  1232.00
+Beacon:  218  |  X:  1371.00, Y:    54.00, Z:  1233.00
+Beacon:  219  |  X:  1616.00, Y:  3099.00, Z:  1933.00
+Beacon:  220  |  X:  1641.00, Y: -3201.00, Z:   826.00
+Beacon:  221  |  X:  1644.00, Y: -3040.00, Z:   798.00
+Beacon:  222  |  X:  1698.00, Y:  1968.00, Z:  1802.00
+Beacon:  223  |  X:  1705.00, Y:  -554.00, Z:  1868.00
+Beacon:  224  |  X:  1708.00, Y:  2936.00, Z:  1925.00
+Beacon:  225  |  X:  1742.00, Y:  -609.00, Z:  1872.00
+Beacon:  226  |  X:  1756.00, Y: -1515.00, Z:  1685.00
+Beacon:  227  |  X:  1769.00, Y:  3016.00, Z:  1876.00
+Beacon:  228  |  X:  1770.00, Y: -3167.00, Z:   799.00
+Beacon:  229  |  X:  1771.00, Y:   557.00, Z:   724.00
+Beacon:  230  |  X:  1779.00, Y: -1513.00, Z:  1640.00
+Beacon:  231  |  X:  1783.00, Y:  -525.00, Z:  2045.00
+Beacon:  232  |  X:  1785.00, Y:   415.00, Z:   753.00
+Beacon:  233  |  X:  1790.00, Y: -1572.00, Z:  1636.00
+Beacon:  234  |  X:  1828.00, Y:  -766.00, Z:   621.00
+Beacon:  235  |  X:  1830.00, Y:   623.00, Z:   755.00
+Beacon:  236  |  X:  1835.00, Y:  1902.00, Z:  1809.00
+Beacon:  237  |  X:  1836.00, Y:  2042.00, Z:  1767.00
+Beacon:  238  |  X:  1860.00, Y:  2990.00, Z:   540.00
+Beacon:  239  |  X:  1867.00, Y:  -382.00, Z:  2812.00
+Beacon:  240  |  X:  1890.00, Y: -2924.00, Z:  1585.00
+Beacon:  241  |  X:  1890.00, Y:  -679.00, Z:   586.00
+Beacon:  242  |  X:  1892.00, Y:  2920.00, Z:   464.00
+Beacon:  243  |  X:  1903.00, Y: -3112.00, Z:  2789.00
+Beacon:  244  |  X:  1903.00, Y:  -604.00, Z:   643.00
+Beacon:  245  |  X:  1910.00, Y: -1765.00, Z:  3138.00
+Beacon:  246  |  X:  1922.00, Y:  -362.00, Z:  2875.00
+Beacon:  247  |  X:  1927.00, Y: -1881.00, Z:  3092.00
+Beacon:  248  |  X:  1927.00, Y:   856.00, Z:  1815.00
+Beacon:  249  |  X:  1937.00, Y:  1543.00, Z:  -584.00
+Beacon:  250  |  X:  1942.00, Y: -2757.00, Z:  1562.00
+Beacon:  251  |  X:  1944.00, Y:  1736.00, Z:  -593.00
+Beacon:  252  |  X:  1946.00, Y: -1869.00, Z:  3216.00
+Beacon:  253  |  X:  1948.00, Y: -1898.00, Z:   496.00
+Beacon:  254  |  X:  1949.00, Y:   533.00, Z:  -580.00
+Beacon:  255  |  X:  1982.00, Y: -1981.00, Z:   677.00
+Beacon:  256  |  X:  1992.00, Y: -2991.00, Z:  1555.00
+Beacon:  257  |  X:  2005.00, Y:  -294.00, Z:  2859.00
+Beacon:  258  |  X:  2008.00, Y:  2932.00, Z:   607.00
+Beacon:  259  |  X:  2020.00, Y: -1934.00, Z:   615.00
+Beacon:  260  |  X:  2026.00, Y: -3079.00, Z:  2676.00
+Beacon:  261  |  X:  2027.00, Y:  1631.00, Z:  -668.00
+Beacon:  262  |  X:  2028.00, Y:   881.00, Z:  1761.00
+Beacon:  263  |  X:  2034.00, Y: -3097.00, Z:  2828.00
+Beacon:  264  |  X:  2035.00, Y:   548.00, Z:  -677.00
+Beacon:  265  |  X:  2038.00, Y:   488.00, Z:  -561.00
+Beacon:  266  |  X:  2046.00, Y:  2803.00, Z:  -477.00
+Beacon:  267  |  X:  2049.00, Y:   821.00, Z:  1914.00
+Beacon:  268  |  X:  2080.00, Y:  4090.00, Z:   301.00
+Beacon:  269  |  X:  2084.00, Y:  1788.00, Z:   777.00
+Beacon:  270  |  X:  2088.00, Y:  4151.00, Z:   271.00
+Beacon:  271  |  X:  2099.00, Y:  4139.00, Z:  1947.00
+Beacon:  272  |  X:  2103.00, Y:  1905.00, Z:   775.00
+Beacon:  273  |  X:  2103.00, Y:  2864.00, Z:  -371.00
+Beacon:  274  |  X:  2110.00, Y:  1738.00, Z:   757.00
+Beacon:  275  |  X:  2127.00, Y:  4160.00, Z:  1719.00
+Beacon:  276  |  X:  2137.00, Y:  2988.00, Z:  -468.00
+Beacon:  277  |  X:  2140.00, Y:  4206.00, Z:  1782.00
+Beacon:  278  |  X:  2169.00, Y:  4232.00, Z:   265.00
+Beacon:  279  |  X:  2403.00, Y: -2382.00, Z:  1194.00
+Beacon:  280  |  X:  2463.00, Y:     0.00, Z:  1158.00
+Beacon:  281  |  X:  2551.00, Y: -2342.00, Z:  1072.00
+Beacon:  282  |  X:  2844.00, Y: -1904.00, Z:  2007.00
+Beacon:  283  |  X:  2889.00, Y:   799.00, Z:   533.00
+Beacon:  284  |  X:  2911.00, Y: -1998.00, Z:  1884.00
+Beacon:  285  |  X:  2934.00, Y:  -623.00, Z:  1871.00
+Beacon:  286  |  X:  2947.00, Y: -3026.00, Z:   537.00
+Beacon:  287  |  X:  2948.00, Y:   666.00, Z:   436.00
+Beacon:  288  |  X:  2984.00, Y: -1944.00, Z:  1921.00
+Beacon:  289  |  X:  2991.00, Y: -3111.00, Z:   424.00
+Beacon:  290  |  X:  3000.00, Y: -3079.00, Z:  1937.00
+Beacon:  291  |  X:  3003.00, Y: -3117.00, Z:   439.00
+Beacon:  292  |  X:  3010.00, Y:  -792.00, Z:  1845.00
+Beacon:  293  |  X:  3010.00, Y:   825.00, Z:  1471.00
+Beacon:  294  |  X:  3030.00, Y: -3138.00, Z:  1855.00
+Beacon:  295  |  X:  3031.00, Y:   738.00, Z:  1467.00
+Beacon:  296  |  X:  3034.00, Y:   820.00, Z:   472.00
+Beacon:  297  |  X:  3061.00, Y:  -635.00, Z:   630.00
+Beacon:  298  |  X:  3080.00, Y:  -614.00, Z:  1885.00
+Beacon:  299  |  X:  3103.00, Y:   867.00, Z:  1514.00
+Beacon:  300  |  X:  3156.00, Y:  -508.00, Z:   557.00
+Beacon:  301  |  X:  3159.00, Y: -3133.00, Z:  2012.00
+Beacon:  302  |  X:  3182.00, Y:  -656.00, Z:   494.00
+Beacon:  303  |  X:  3203.00, Y: -1971.00, Z:   835.00
+Beacon:  304  |  X:  3293.00, Y: -1921.00, Z:   830.00
+Beacon:  305  |  X:  3339.00, Y: -1990.00, Z:   816.00
+Beacon:  306  |  X:  3609.00, Y: -1244.00, Z:  1123.00
+Beacon:  307  |  X:  3701.00, Y: -2440.00, Z:  1140.00
+Beacon:  308  |  X:  3782.00, Y: -1126.00, Z:  1060.00
+Beacon:  309  |  X:  4162.00, Y:  -414.00, Z:  1459.00
+Beacon:  310  |  X:  4192.00, Y:  -511.00, Z:  1623.00
+Beacon:  311  |  X:  4194.00, Y: -2005.00, Z:   296.00
+Beacon:  312  |  X:  4253.00, Y: -3065.00, Z:   795.00
+Beacon:  313  |  X:  4273.00, Y:  -460.00, Z:  1572.00
+Beacon:  314  |  X:  4317.00, Y: -3008.00, Z:   825.00
+Beacon:  315  |  X:  4328.00, Y: -3243.00, Z:  1852.00
+Beacon:  316  |  X:  4343.00, Y: -2018.00, Z:   398.00
+Beacon:  317  |  X:  4359.00, Y: -3223.00, Z:  1937.00
+Beacon:  318  |  X:  4367.00, Y: -3273.00, Z:  1813.00
+Beacon:  319  |  X:  4378.00, Y:  -716.00, Z:   339.00
+Beacon:  320  |  X:  4396.00, Y: -2013.00, Z:   307.00
+Beacon:  321  |  X:  4412.00, Y: -3074.00, Z:   750.00
+Beacon:  322  |  X:  4457.00, Y:  -746.00, Z:   414.00
+Beacon:  323  |  X:  4467.00, Y: -1748.00, Z:  1499.00
+Beacon:  324  |  X:  4503.00, Y:  -673.00, Z:   289.00
+Beacon:  325  |  X:  4506.00, Y: -1588.00, Z:  1544.00
+Beacon:  326  |  X:  4581.00, Y: -1725.00, Z:  1510.00
+
+[1] + Done                       "/usr/bin/gdb" --interpreter=mi --tty=${DbgTerm} 0<"/tmp/Microsoft-MIEngine-In-gt0jekkp.irg" 1>"/tmp/Microsoft-MIEngine-Out-bzkpibgb.hxb"
+rphillips@vm-rwp-0001:~/src/aoc/day19$ 

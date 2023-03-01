@@ -27,14 +27,6 @@ class Position {
     int Y = 0;
     int Z = 0;
 
-
-
-//	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h
-//	invalid operands to binary expression ('const Position' and 'const Position' )
-
-
-    
-
     constexpr bool operator> ( const Position &rhs ) const {
         //if ( *this == rhs ) return false;
         if ( X < rhs.X ) return false;
@@ -61,7 +53,7 @@ class Position {
         return true;
     }
 
-    bool operator()( const Position & lhs, const Position & rhs ) const { return lhs == rhs; }
+    //bool operator()( const Position & lhs, const Position & rhs ) const { return lhs == rhs; }
 
     constexpr  bool operator!= ( const Position &rhs){ 
         return !operator==(rhs);
@@ -150,7 +142,6 @@ class Scanner{
     bool Found = false;
     int Rotation = 0;
 
-
     friend std::ostream& operator << (std::ostream &s, const Scanner &S){
         s << "Scanner: " << S.Name << " with " << S.RotationsArrary[0].size() << " Beacons at " << S.Location << " and Rotation: " << S.Rotation;
         return s;
@@ -192,11 +183,14 @@ class Scanner{
         CalcBeaconDistances();
     }
    
+    /// @brief 
     Scanner(){}
 
     Scanner( std::string Input ){
         Name = Input;
     }
+
+    ~Scanner(){}
 
     bool BeaconAtPos( Position Input ){
         for(Position P1 : Beacons() ) if( Input == P1 ) return true;
@@ -355,6 +349,7 @@ class Scanner{
 
 };
 
+
 std::list<Scanner> Scanners = std::list<Scanner>(); 
 
 void ReadFile(std::string filename){
@@ -383,7 +378,6 @@ void ReadFile(std::string filename){
 }
 
 int main(){
-    
 
     ReadFile( FILENAME );
     //auto it = Scanners.begin();   
@@ -422,7 +416,7 @@ int main(){
     BeaconData.unique();
     //BeaconData.reverse();
 
-    //std::cout << Scanner::PrintBeacons( BeaconData ) << "\n";
+    std::cout << Scanner::PrintBeacons( BeaconData ) << "\n";
 
     std::cout << BeaconData.size() << " Beacons Found.\n";
     

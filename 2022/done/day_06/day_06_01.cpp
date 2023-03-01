@@ -97,6 +97,7 @@ void ReadFile( std::string filename ) {
             }
         } else throw( std::exception() );
         myfile.close();
+
     }
     catch( const std::exception& e ) { std::cerr << e.what() << '\n'; }
 

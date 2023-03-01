@@ -91,7 +91,6 @@ How many characters need to be processed before the first start-of-message marke
 #include <array>
 #include <stdexcept>
 
-
 int FindMarker( std::string Input ){
     for( int i = 0; i < Input.length()-14; i++ ){
         std::string S1 = Input.substr(i,14);

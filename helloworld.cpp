@@ -1,16 +1,29 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <ncurses.h>
 
 using namespace std;
 
+#include <signal.h>
+void* resizeHandler(int);
+
 int main()
 {
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    // init screen and sets up screen
+    initscr();
 
-    for (const string& word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+    // print to screen
+    printw("Hello World");
+
+    // refreshes the screen
+    refresh();
+
+    // pause the screen output
+    getch();
+
+    // deallocates memory and ends ncurses
+    endwin();
+
 }
+

@@ -1,5 +1,6 @@
 {
     "configurations": [
+
         {
             "name": "(lldb) Launch",
             "type": "cppdbg",
@@ -21,9 +22,22 @@
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true,
             "MIMode": "lldb",
             "preLaunchTask": "C/C++: clang++ build active file"
+        },        
+        {
+            "name": "C/C++: g++ build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: g++-13 build active file"
         }
     ],
     "version": "2.0.0"

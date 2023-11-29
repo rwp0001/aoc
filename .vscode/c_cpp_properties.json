@@ -9,11 +9,11 @@
             "macFrameworkPath": [
                 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
-            "compilerPath": "/usr/bin/clang",
-            "intelliSenseMode": "macos-clang-arm64",
+            "compilerPath": "/opt/homebrew/bin/g++-13",
+            "intelliSenseMode": "macos-gcc-arm64",
             "configurationProvider": "ms-vscode.makefile-tools",
             "cStandard": "c17",
-            "cppStandard": "c++23"
+            "cppStandard": "c++17"
         }
     ],
     "version": 4

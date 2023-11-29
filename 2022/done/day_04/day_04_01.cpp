@@ -67,6 +67,8 @@ In how many assignment pairs does one range fully contain the other?
 
 */
 
+#define COLOR_TERM 0
+
 #include <fstream>
 #include <sstream>
 #include <string>
@@ -113,11 +115,10 @@ int ProcessData( std::string Line ) {
     std::cout.width(2);
     std::cout << s2e;
     std::cout.width();
-    if(r == 0) std::cout << "\x1B[31m";
-    if(r != 0) std::cout << "\x1B[34m";
+    if( COLOR_TERM ) if(r == 0) { std::cout << "\x1B[31m"; } else { std::cout << "\x1B[34m"; }
     std::cout << " R: " << r;
-    std::cout << "\033[0m\n";
-
+    if( COLOR_TERM ) std::cout << "\033[0m";
+    std::cout << "\n";
     return r > 0 ? 1 : 0;
 
 }

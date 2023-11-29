@@ -69,7 +69,32 @@
         "complex": "cpp",
         "optional": "cpp",
         "unordered_map": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "numbers": "cpp",
+        "utility": "cpp",
+        "__verbose_abort": "cpp",
+        "charconv": "cpp",
+        "codecvt": "cpp",
+        "condition_variable": "cpp",
+        "span": "cpp",
+        "thread": "cpp",
+        "bit": "cpp",
+        "iterator": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "format": "cpp",
+        "stop_token": "cpp"
     },
-    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
 }

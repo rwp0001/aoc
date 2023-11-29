@@ -113,63 +113,70 @@ In how many assignment pairs do the ranges overlap?
 #include <iterator>
 #include <algorithm>
 #include <chrono>
+#include <ncurses.h>
 
-int ProcessData( std::string Line ) {
-    int r = 0;
-    std::string S1,S2;
+#define COLOR_TERM 1
 
-    S1 = Line.substr(0,Line.find(','));
-    S2 = Line.substr(Line.find(',')+1);
-    int s1s = std::stoi(S1.substr(0,S1.find('-'))); 
-    int s1e = std::stoi(S1.substr(S1.find('-')+1)); 
-    int s2s = std::stoi(S2.substr(0,S2.find('-'))); 
-    int s2e = std::stoi(S2.substr(S2.find('-')+1)); 
-    int s1r = s1e-s1s;
-    int s2r = s2e-s2s;
-    
-    if( s2s <= s1e ) {
-        if( s2s >= s1s ) r++;
+class LineData {
+    public:
+    std::string Line;
+    int s1s, s1e, s2s, s2e, s1r, s2r, r;
+    bool Overlap = false;
+
+    void Decode(){
+        std::string S1,S2;
+        S1 = Line.substr(0,Line.find(','));
+        S2 = Line.substr(Line.find(',')+1);
+        s1s = std::stoi(S1.substr(0,S1.find('-'))); 
+        s1e = std::stoi(S1.substr(S1.find('-')+1)); 
+        s2s = std::stoi(S2.substr(0,S2.find('-'))); 
+        s2e = std::stoi(S2.substr(S2.find('-')+1));
+        s1r = s1e-s1s;
+        s2r = s2e-s2s;
     }
-    
-    //if( s2e >= s1s & s1e >= s2e ) r++;
 
-    //if( s1e <= s2s ) {
-    //    s2r = 
-    //    if( s2s >= s2e ) r++;
-    //}
+    bool CalcOverlap(){
+        if( s2s <= s1e & s2s >= s1s ) return true;
+        if( s1s <= s2e & s1s >= s2s ) return true;
+        return false;
+    }
 
-    //if( s2s <= s1e ) {
-    //    r++;
-    //}
+    LineData(std::string Input){
+        Line = Input;
+        Decode();
+        Overlap = CalcOverlap();
+    }
 
-    // print out
-    std::cout.width(15);
-    std::cout << Line;
-    std::cout.width();
-    std::cout << " | ";
-    std::cout.width(2);
-    std::cout << s1s;
-    std::cout.width();
-    std::cout << ",";
-    std::cout.width(2);
-    std::cout << s1e;
-    std::cout.width();
-    std::cout << " - ";
-    std::cout.width(2);
-    std::cout << s2s;
-    std::cout.width();
-    std::cout << ",";
-    std::cout.width(2);
-    std::cout << s2e;
-    std::cout.width();
-    if(r == 0) std::cout << "\x1B[31m";
-    if(r != 0) std::cout << "\x1B[34m";
-    std::cout << " R: " << r;
-    std::cout << "\033[0m\n";
+    friend std::ostream& operator << (std::ostream &s, const LineData &LD){
+        s << std::setw(15);
+        s << LD.Line;
+        s << std::fixed;
+        s << " | ";
+        s << std::setw(2);
+        s << LD.s1s;
+        s << std::fixed;
+        s << ",";
+        s << std::setw(2);
+        s << LD.s1e;
+        s << std::fixed;
+        s << " - ";
+        s << std::setw(2);
+        s << LD.s2s;
+        s << std::fixed;
+        s << ",";
+        s << std::setw(2);
+        s << LD.s2e;
+        s << std::fixed;
+        s << " Overlap: ";
+        if( COLOR_TERM & (LD.Overlap) ) { s << "\x1B[31m"; } 
+        else if(COLOR_TERM) { s << "\x1B[34m"; }
+        if( LD.Overlap==true ) { s << "True"; } else { s << "False"; }
+        if ( COLOR_TERM ) s << "\033[0m";
+        s << "\n";
+        return s; 
+    }
 
-    return r > 0 ? 1 : 0;
-
-}
+};
 
 void ReadFile( std::string filename ) {
     std::string line;
@@ -179,18 +186,22 @@ void ReadFile( std::string filename ) {
     try
     {
         if (myfile.is_open()){
-            while ( getline( myfile, line ) ) Score += ProcessData( line );
+            while ( getline( myfile, line ) ) {
+                if( line[0] == '#' ) continue;
+                LineData L( line );
+                std::cout<< L;
+                if(L.Overlap) Score++;
+            }
         } else throw( std::exception() );
         myfile.close();
     }
     catch( const std::exception& e ) { std::cerr << e.what() << '\n'; }
-
-    std::cout <<  "Total Score: " << Score  << "\n";
+    std::cout << "Score: " << Score;
 }
 
 int main()
 {
-    ReadFile( "sample.txt" );
+    //ReadFile( "sample.txt" );
     //ReadFile( "sample2.txt" );
-    //ReadFile( "input.txt" );
+    ReadFile( "input.txt" );
 }

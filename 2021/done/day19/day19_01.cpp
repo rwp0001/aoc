@@ -137,13 +137,13 @@ class Scanner{
     public:
     std::string Name;
     Position Location;
-    std::list<Position> RotationsArrary[24];
+    std::list<Position> RotationsArray[24];
     std::list<double> BeaconDistances;
     bool Found = false;
     int Rotation = 0;
 
     friend std::ostream& operator << (std::ostream &s, const Scanner &S){
-        s << "Scanner: " << S.Name << " with " << S.RotationsArrary[0].size() << " Beacons at " << S.Location << " and Rotation: " << S.Rotation;
+        s << "Scanner: " << S.Name << " with " << S.RotationsArray[0].size() << " Beacons at " << S.Location << " and Rotation: " << S.Rotation;
         return s;
     }
     
@@ -162,14 +162,14 @@ class Scanner{
         if( Name != rhs.Name ) return false;
         if( Location != rhs.Location ) return false;
         if( Rotation != rhs.Rotation ) return false;
-        if( RotationsArrary[0].size() != rhs.RotationsArrary[0].size() ) return false;
+        if( RotationsArray[0].size() != rhs.RotationsArray[0].size() ) return false;
         //for( Position P1 : rhs.Beacons() ) if ( !BeaconAtAbsPos( P1 ) ) return false;
         return true;
     }
 
     std::list<Position> Beacons(){ 
         std::list<Position> returnValue = std::list<Position>();
-        for( Position P1 : RotationsArrary[Rotation] ) returnValue.push_back( Offset( P1 ) );
+        for( Position P1 : RotationsArray[Rotation] ) returnValue.push_back( Offset( P1 ) );
         //returnValue.sort();
         return returnValue;
     }
@@ -198,13 +198,13 @@ class Scanner{
     }
 
     bool BeaconAtAbsPos( Position Input ){
-        for(Position P1 : RotationsArrary[0] ) if( Input == P1 ) return true;
+        for(Position P1 : RotationsArray[0] ) if( Input == P1 ) return true;
         return false;   
     }
 
     std::list<Position> BeaconAbsAtDistance( double d ){
         std::list<Position> returnValue = std::list<Position>();
-        for( Position P1 : RotationsArrary[Rotation] ) for( Position P2 : RotationsArrary[Rotation] ) if ( P1.distance( P2 ) == d ) returnValue.push_back(P1);
+        for( Position P1 : RotationsArray[Rotation] ) for( Position P2 : RotationsArray[Rotation] ) if ( P1.distance( P2 ) == d ) returnValue.push_back(P1);
         //returnValue.sort();
         //returnValue.unique();
         return returnValue;
@@ -287,7 +287,7 @@ class Scanner{
 
     double MostCommonDistance(){        
         std::list<double> MyDistances = std::list<double>();
-        for( Position P1 : RotationsArrary[0] ) for(Position P2 : RotationsArrary[0] ) MyDistances.push_back(P1.distance(P2));
+        for( Position P1 : RotationsArray[0] ) for(Position P2 : RotationsArray[0] ) MyDistances.push_back(P1.distance(P2));
         double d = 0.0;
         int LastCount = 0;
         int Count = 0;
@@ -312,39 +312,39 @@ class Scanner{
 
     void CalcBeaconDistances(){
         BeaconDistances = std::list<double>();
-        for( Position P1 : RotationsArrary[0] ) for(Position P2 : RotationsArrary[0] ) BeaconDistances.push_back(P1.distance(P2));
+        for( Position P1 : RotationsArray[0] ) for(Position P2 : RotationsArray[0] ) BeaconDistances.push_back(P1.distance(P2));
         BeaconDistances.sort();
         BeaconDistances.unique();
         BeaconDistances.pop_front();
     }
 
     void CalcBeaconRotations( Position P1 ){
-        RotationsArrary[  0 ].push_back( Position(  P1.X,  P1.Y,  P1.Z ) );
-        RotationsArrary[  1 ].push_back( Position(  P1.X, -P1.Y, -P1.Z ) );
-        RotationsArrary[  2 ].push_back( Position( -P1.X, -P1.Y,  P1.Z ) );
-        RotationsArrary[  3 ].push_back( Position( -P1.X,  P1.Y, -P1.Z ) );
-        RotationsArrary[  4 ].push_back( Position(  P1.X, -P1.Z,  P1.Y ) );
-        RotationsArrary[  5 ].push_back( Position(  P1.X,  P1.Z, -P1.Y ) );
-        RotationsArrary[  6 ].push_back( Position( -P1.X, -P1.Z, -P1.Y ) );
-        RotationsArrary[  7 ].push_back( Position( -P1.X,  P1.Z,  P1.Y ) );
-        RotationsArrary[  8 ].push_back( Position(  P1.Y,  P1.X, -P1.Z ) );
-        RotationsArrary[  9 ].push_back( Position(  P1.Y, -P1.X,  P1.Z ) );
-        RotationsArrary[ 10 ].push_back( Position( -P1.Y,  P1.X,  P1.Z ) );
-        RotationsArrary[ 11 ].push_back( Position( -P1.Y, -P1.X, -P1.Z ) );
-        RotationsArrary[ 12 ].push_back( Position(  P1.Y,  P1.Z,  P1.X ) );
-        RotationsArrary[ 13 ].push_back( Position(  P1.Y, -P1.Z, -P1.X ) );
-        RotationsArrary[ 14 ].push_back( Position( -P1.Y, -P1.Z,  P1.X ) );
-        RotationsArrary[ 15 ].push_back( Position( -P1.Y,  P1.Z, -P1.X ) );
-        RotationsArrary[ 16 ].push_back( Position(  P1.Z,  P1.X,  P1.Y ) );
-        RotationsArrary[ 17 ].push_back( Position(  P1.Z, -P1.X, -P1.Y ) );
-        RotationsArrary[ 18 ].push_back( Position( -P1.Z,  P1.X, -P1.Y ) );
-        RotationsArrary[ 19 ].push_back( Position( -P1.Z, -P1.X,  P1.Y ) );
-        RotationsArrary[ 20 ].push_back( Position(  P1.Z,  P1.Y, -P1.X ) );
-        RotationsArrary[ 21 ].push_back( Position(  P1.Z, -P1.Y,  P1.X ) );
-        RotationsArrary[ 22 ].push_back( Position( -P1.Z,  P1.Y,  P1.X ) );
-        RotationsArrary[ 23 ].push_back( Position( -P1.Z, -P1.Y, -P1.X ) );
+        RotationsArray[  0 ].push_back( Position(  P1.X,  P1.Y,  P1.Z ) );
+        RotationsArray[  1 ].push_back( Position(  P1.X, -P1.Y, -P1.Z ) );
+        RotationsArray[  2 ].push_back( Position( -P1.X, -P1.Y,  P1.Z ) );
+        RotationsArray[  3 ].push_back( Position( -P1.X,  P1.Y, -P1.Z ) );
+        RotationsArray[  4 ].push_back( Position(  P1.X, -P1.Z,  P1.Y ) );
+        RotationsArray[  5 ].push_back( Position(  P1.X,  P1.Z, -P1.Y ) );
+        RotationsArray[  6 ].push_back( Position( -P1.X, -P1.Z, -P1.Y ) );
+        RotationsArray[  7 ].push_back( Position( -P1.X,  P1.Z,  P1.Y ) );
+        RotationsArray[  8 ].push_back( Position(  P1.Y,  P1.X, -P1.Z ) );
+        RotationsArray[  9 ].push_back( Position(  P1.Y, -P1.X,  P1.Z ) );
+        RotationsArray[ 10 ].push_back( Position( -P1.Y,  P1.X,  P1.Z ) );
+        RotationsArray[ 11 ].push_back( Position( -P1.Y, -P1.X, -P1.Z ) );
+        RotationsArray[ 12 ].push_back( Position(  P1.Y,  P1.Z,  P1.X ) );
+        RotationsArray[ 13 ].push_back( Position(  P1.Y, -P1.Z, -P1.X ) );
+        RotationsArray[ 14 ].push_back( Position( -P1.Y, -P1.Z,  P1.X ) );
+        RotationsArray[ 15 ].push_back( Position( -P1.Y,  P1.Z, -P1.X ) );
+        RotationsArray[ 16 ].push_back( Position(  P1.Z,  P1.X,  P1.Y ) );
+        RotationsArray[ 17 ].push_back( Position(  P1.Z, -P1.X, -P1.Y ) );
+        RotationsArray[ 18 ].push_back( Position( -P1.Z,  P1.X, -P1.Y ) );
+        RotationsArray[ 19 ].push_back( Position( -P1.Z, -P1.X,  P1.Y ) );
+        RotationsArray[ 20 ].push_back( Position(  P1.Z,  P1.Y, -P1.X ) );
+        RotationsArray[ 21 ].push_back( Position(  P1.Z, -P1.Y,  P1.X ) );
+        RotationsArray[ 22 ].push_back( Position( -P1.Z,  P1.Y,  P1.X ) );
+        RotationsArray[ 23 ].push_back( Position( -P1.Z, -P1.Y, -P1.X ) );
 
-        //for( int i = 0; i<24; i++) RotationsArrary[i].sort();
+        //for( int i = 0; i<24; i++) RotationsArray[i].sort();
     }
 
 };

@@ -132,7 +132,7 @@ What is the sum of the total sizes of those directories?
 #include <iterator>
 #include <array>
 #include <stdexcept>
-#include <ncurses.h>
+//#include <ncurses.h>
 
 
 class File {

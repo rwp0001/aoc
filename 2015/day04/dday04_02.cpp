@@ -34,8 +34,6 @@ Your puzzle input is iwrupvqb.
 #include <cstring>    
 #include <iostream>     
 #include <vector>     
-#include <thread>
-#include <list>
 
 std::string seed =  "iwrupvqb";
 
@@ -304,41 +302,23 @@ static void interactive() {
     }
 }
 
-void Worker(int start, int length){
-        int stop = start + length;
-        std::string input, output;
-
-        for(int i = start; i < stop; i++ ){
-            input = seed + std::to_string(i++);
-
-            void* sig = hashing::md5::hash(input);
-            output = hashing::md5::sig2hex(sig);
-            
-            if(output.substr(0,5) == "00000") {
-                std::cout << "I: " << i << " - " << input << " Hash is: " << output << std::endl;
-                Found = true;
-            }
-
-            if(Found) break;
-
-        }
-}
-
-bool Found = false;
-int NumOfThreads = 8;
-int WorkSize = 100000;
-
 int main() {
-    int i = 0;
+    test();  // run self-test implementations
+    bool Found = false;
+    int i = 2709428;
     do
     {
-        for(int tn = 0; i< NumOfThreads; tn++){
-            int ts = i+(tn*WorkSize);
-            std::thread T(Worker,ts,WorkSize);
-        }
-        i += NumOfThreads * WorkSize;
+        std::string input = seed + std::to_string(i++);
+        void* sig = hashing::md5::hash(input);
+
+        std::string output = hashing::md5::sig2hex(sig);
+        //std::cout << "I: " << input << " Hash is: " << output << std::endl;
+        if(output.substr(0,6) == "000000") Found = true;
 
     } while (!Found);
     
+    std::cout << "I: " << --i << std::endl;
+
+
 }
 

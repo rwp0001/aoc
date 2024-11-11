@@ -40,32 +40,38 @@ After following the instructions, how many lights are lit?
 #include <cmath>
 #include <cstdint>
 
-float Lights[1000][1000];
+bool Lights[1000][1000];
 
 void ClearLights(){
-    for( int x = 0; x < 999; x++ ) for( int y = 0; y < 999; y++ ) Lights[x][y] = 0;
+    for( int x = 0; x < 999; x++ ) for( int y = 0; y < 999; y++ ) Lights[x][y] = false;
 }
 
 int CountLights(){
     int Count;
-    for( int x = 0; x < 1000; x++ ) for( int y = 0; y < 1000; y++ ) if( Lights[x][y] != 0 ) Count++;
+    for( int x = 0; x < 999; x++ ) for( int y = 0; y < 999; y++ ) if( Lights[x][y] ) Count++;
     return Count;
 }
 
 void TurnOn( int x1, int y1, int x2, int y2 ){
-    for( int x = x1; x < x2; x++ ) for( int y = y1; y < y2; y++ ) Lights[x][y] = 255;
+    for( int x = x1; x < x2+1; x++ ) {
+        for( int y = y1; y < y2+1; y++ ) {
+            Lights[x][y] = true;
+        }
+    }
 }
 
 void TurnOff( int x1, int y1, int x2, int y2 ){
-    for( int x = x1; x < x2; x++ ) for( int y = y1; y < y2; y++ ) Lights[x][y] = 0;
+    for( int x = x1; x < x2+1; x++ ) {
+        for( int y = y1; y < y2+1; y++ ) {
+            Lights[x][y] = false;
+        }
+    }
 }
 
 void Toggle( int x1, int y1, int x2, int y2 ){
-    for( int x = x1; x < x2; x++ ) for( int y = y1; y < y2; y++ ) {
-        if( Lights[x][y] != 0 ) {
-            Lights[x][y] = 0; 
-        } else {
-            Lights[x][y] = 255; 
+    for( int x = x1; x < x2+1; x++ ) {
+        for( int y = y1; y < y2+1; y++ ) {
+            Lights[x][y] = !Lights[x][y];
         }
     }
 }
@@ -109,12 +115,13 @@ void DoAction( std::string Input ){
 
 }
 
-void save_image(const ::std::string &name, float img_vals[][1000])
+void save_image(const ::std::string &name, bool img_vals[1000][1000])
 {
    using ::std::string;
    using ::std::ios;
    using ::std::ofstream;
    typedef unsigned char pixval_t;
+
    auto float_to_pixval = [](float img_val) -> pixval_t {
       int tmpval = static_cast<int>(::std::floor(256 * img_val));
       if (tmpval < 0) {
@@ -125,6 +132,18 @@ void save_image(const ::std::string &name, float img_vals[][1000])
          return tmpval & 0xffu;
       }
    };
+
+   auto bool_to_pixval = [](bool img_val) -> pixval_t {
+      int tmpval = img_val ? 255 : 0;
+      if (tmpval < 0) {
+         return 0u;
+      } else if (tmpval > 255) {
+         return 255u;
+      } else {
+         return tmpval & 0xffu;
+      }
+   };
+
    auto as_pgm = [](const string &name) -> string {
       if (! ((name.length() >= 4)
              && (name.substr(name.length() - 4, 4) == ".pgm")))
@@ -140,7 +159,7 @@ void save_image(const ::std::string &name, float img_vals[][1000])
    out << "P5\n1000 1000\n255\n";
       for (int x = 0; x < 1000; ++x) {
       for (int y = 0; y < 1000; ++y) {
-         const pixval_t pixval = float_to_pixval(img_vals[x][y]);
+         const pixval_t pixval = bool_to_pixval(img_vals[x][y]);
          const char outpv = static_cast<const char>(pixval);
          out.write(&outpv, 1);
       }
@@ -159,8 +178,8 @@ void ReadFile( std::string filename ) {
         if (myfile.is_open()){
             while ( getline( myfile, line ) ) {
                 DoAction(line);
-                ImageName = "Frame_" + std::to_string( Count );
-                save_image(ImageName,Lights);
+                //ImageName = "Frame_" + std::to_string( Count );
+                //save_image(ImageName,Lights);
                 Count++;
             }
         } else throw( std::exception() );

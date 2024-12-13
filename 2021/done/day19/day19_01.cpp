@@ -396,7 +396,7 @@ int main(){
                 if ( S2.Found ) continue;
                 if(  S2.SameDistanceCount(S1) < MIN_MATCHES * 3 ) continue;
                 S2.Found = S2.CalculateOffset(S1);
-                //if( S2.Found ) std::cout << S1.Name << " Found " << S2.Name << "\n"; // << Scanner::PrintBeacons( S2.Beacons() ) << "\n";
+                if( S2.Found ) std::cout << S1.Name << " Found " << S2.Name << "\n"; // << Scanner::PrintBeacons( S2.Beacons() ) << "\n";
             }
         }
         AllFound = true;

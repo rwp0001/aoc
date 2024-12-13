@@ -35,6 +35,9 @@ How many passwords are valid according to their policies?
 #include <chrono>
 #include <ranges>
 #include <vector>
+#include <cmath>
+#include <iomanip>
+
 
 class Password{
     
@@ -62,13 +65,28 @@ class Password{
         return true;
     }
     
+    friend std::ostream& operator << (std::ostream &s, const Password &p){
+        s << "Char: ";     
+        s << p.c;
+        s << ", Min: ";
+        s << std::fixed;
+        s << std::setw(3);
+        s << p.min;
+        s << ", Max: ";
+        s << std::fixed;
+        s << std::setw(3);
+        s << p.max;
+        s << ", Data: ";     
+        s << p.data;
+        return s; 
+    }
+
     private:
     int CharCount(char c,std::string input){
         int count = 0;
         for( char c2 : input ) if( c== c2) count++;
         return count;
     }
-
 };
 
 
@@ -102,6 +120,8 @@ int main()
 
     for( Password x : DataSet ) {
         if(x.valid()) count++;
+        if( !x.valid() ) std::cout << "\x1B[31m";
+        std::cout << x << "\033[0m" << std::endl;
     }
 
     std::cout << "Count: " << count << std::endl;

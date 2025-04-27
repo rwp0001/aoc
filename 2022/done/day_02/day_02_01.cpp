@@ -191,5 +191,5 @@ void ReadFile( std::string filename ) {
 int main()
 {
     //ReadFile( "sample.txt" );
-    ReadFile( "input2.txt" );
+    ReadFile( "input.txt" );
 }
